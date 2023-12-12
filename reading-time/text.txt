@@ -1,0 +1,19 @@
+comments are not allowed in manifest.json files and json files in general 
+
+in manifest.json --> name , description , version, manifest_version are required metadata fields that tells us about the extensions 
+
+next we have "icons" : {
+    //icons section
+    "16":"",
+    "32":"",
+    //different sizes icons to be displayed at different locations
+
+}
+
+**** content_scripts**** --> they are script files used to manipulate the contents of the page , in action the we gave only the files whihc will run when it is clicked and it is completely separated from the page info , but in content_scripts: they are able to change the contents of page currently you are in .
+
+"content_scripts":{
+    script: //this is the js file address which we want to use 
+    matches : // they contain the address whihc we want to manipulate 
+}
+

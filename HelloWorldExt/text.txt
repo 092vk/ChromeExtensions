@@ -1,0 +1,7 @@
+**how to build a Hello World chrome extension **
+
+1.-->first we need a manifest.json file , this file is most important and contains the overview of our extensions it contains the capabilities of extension and the configurations .
+
+2.so manifest.json contains the information about what action will be taken and other details , for example action keyword contains fields like default_popup : which tells what html file will run when clicked ,and default_icon : which contains info about the icon that we see in place of extension as a logo 
+
+

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "New Year Countdown",
+  "version": "1.0",
+  "description": "A simple Chrome extension to show a countdown for the new year.",
+  
+  "permissions": ["activeTab"],
+  
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+
+}
